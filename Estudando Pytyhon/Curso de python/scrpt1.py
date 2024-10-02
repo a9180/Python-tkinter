@@ -48,3 +48,43 @@ lista = ['Andre', 'ASde', 'erwer']
 # lista.append('V!@sssdfsd')
 # print(len(lista))
 # print(lista)
+
+# remover um índice específico ou o último elemento
+#lista.pop(0)
+#print(lista)
+
+# remover com del
+# del lista[1]
+# print(lista)
+
+# remover toda a lista
+# del lista
+# print(lista)
+
+# limpar a lista
+#lista.clear()
+#print(lista)
+
+#copiar uma lista
+# lista2 = lista.copy()
+# print(lista2)
+
+# PYTHON LISTS - COLEÇÕES DE DADOS
+
+# TUPLE - coleção ordenada, mas inalterável. Permite valores duplicados
+lista = ('Andre', 'Asdew', 'Ytuubh')
+print(lista)
+
+# aceder a valores do tuple
+#print(lista[1])
+
+# aceder a valores? Nem pensar
+#lista[1] = 'SASdWEWD'
+
+# iteração de um tuple
+#for nome in lista:
+#    print(nome)
+
+# verificar se um ltem existe
+if 'Andre' in lista:
+    print('Exite!')
